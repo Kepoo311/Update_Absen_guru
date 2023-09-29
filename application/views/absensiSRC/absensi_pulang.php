@@ -152,7 +152,7 @@ function checkTime() {
 
     // Batas waktu untuk sore (14 siang sampai 17 sore)
     const afternoonStart = 15;
-    const afternoonEnd = 23;
+    const afternoonEnd = 17;
 
     // Memeriksa apakah waktu saat ini berada dalam batas waktu yang diizinkan
     if ((currentHour >= morningStart && currentHour <= morningEnd) ||
